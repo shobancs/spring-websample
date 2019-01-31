@@ -18,10 +18,14 @@ public class HelloController {
     
 
     @RequestMapping("/api/hello-shoban")
-    public String index() {
+    public String indexshoban() {
         return "Hello Shoban !";
     }
 
+    @RequestMapping("/api/hello-vasu")
+    public String indexvasu() {
+        return "Hello Vasanthaa1 !";
+    }
 
 }
 
