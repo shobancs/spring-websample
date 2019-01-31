@@ -11,4 +11,10 @@ public class HelloController {
         return "Hello Greetings from Spring Boot !";
     }
     
+    @RequestMapping("/api/hellovasu")
+    public String indexVasu() {
+        return "Hello Greetings from Spring Boot Vasantha!";
+    }
+    
+    
 }
