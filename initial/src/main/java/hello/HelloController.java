@@ -15,14 +15,15 @@ public class HelloController {
     public String indexVasu() {
         return "Hello Greetings from Spring Boot Vasantha!";
     }
-    
 
     @RequestMapping("/api/hello-shoban")
-    public String index() {
+    public String indexShoban() {
         return "Hello Shoban !";
     }
 
-
-}
-
+	@RequestMapping("/api/hello/balatest")
+	public String indexBalaTest() {
+	    return "Bala Test Hello Greetings from Spring Boot !";
+	}
+    
 }
