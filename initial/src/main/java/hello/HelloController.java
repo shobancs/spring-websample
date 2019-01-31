@@ -18,7 +18,7 @@ public class HelloController {
 
     @RequestMapping("/api/hello-vasu")
     public String indexvasu() {
-        return "Hello Vasantha !";
+        return "Hello Vasanthaa1 !";
     }
 
 }
