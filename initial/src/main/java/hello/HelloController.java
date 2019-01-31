@@ -11,4 +11,9 @@ public class HelloController {
         return "Hello Greetings from Spring Boot !";
     }
     
+    @RequestMapping("/api/hello/balatest")
+    public String indexBalaTest() {
+        return "Bala Test Hello Greetings from Spring Boot !";
+    }
+    
 }
