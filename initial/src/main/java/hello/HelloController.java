@@ -25,5 +25,10 @@ public class HelloController {
 	public String indexBalaTest() {
 	    return "Bala Test Hello Greetings from Spring Boot !";
 	}
-    
+	
+	// Made this change in bala_dev branch again.
+	@RequestMapping("/api/hello/balatest2")
+	public String indexBalaTest2() {
+	    return "Bala Test2 Hello Greetings from Spring Boot !";
+	}    
 }
